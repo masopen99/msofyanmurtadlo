@@ -10,19 +10,15 @@ Full-Stack Developer · Building + Learning + Shipping
 
 <!--
   PHASE 2 — Stats cards
-  TEMPORARY: pointed at the public github-readme-stats instance so images
-  render now. It rate-limits under heavy shared traffic ("API rate limit
-  exceeded"). Once you finish the self-hosting steps (see checklist below),
-  replace YOUR-INSTANCE with your own Vercel deployment URL for reliability.
+  Static SVGs baked into assets/, generated from live GitHub API data
+  (no external rate-limited service involved, so this never 503s).
+  Re-run the generator script (kept alongside the source .json data,
+  not just the SVG) whenever you want the numbers refreshed.
 -->
-<img src="https://github-readme-stats.vercel.app/api/pin?username=msofyanmurtadlo&show_owner=true&theme=react&hide_border=true&bg_color=0A101F&title_color=22D3EE&text_color=ffffff&icon_color=10B981" width="100%" />
-
 <img src="https://streak-stats.demolab.com?user=msofyanmurtadlo&theme=dark&hide_border=true&background=0A101F&ring=22D3EE&fire=10B981&currStreakLabel=22D3EE" width="100%" />
 
-<img src="https://github-readme-stats.vercel.app/api?username=msofyanmurtadlo&show_icons=true&theme=react&hide_border=true&bg_color=0A101F&title_color=22D3EE&text_color=ffffff&icon_color=10B981&hide_rank=true" width="49%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=msofyanmurtadlo&layout=compact&theme=react&hide_border=true&bg_color=0A101F&title_color=22D3EE&text_color=ffffff" width="49%" />
-
-<!-- hide_rank=true: rank is stars-weighted and misleading for newer accounts -->
+<img src="assets/stats-card.svg" width="49%" />
+<img src="assets/top-langs.svg" width="49%" />
 
 <!-- PHASE 3 — Contribution snake -->
 <picture>

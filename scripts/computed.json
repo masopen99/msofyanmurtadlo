@@ -1,0 +1,36 @@
+{
+  "total_repos": 16,
+  "total_stars": 0,
+  "top_langs": [
+    {
+      "name": "PHP",
+      "pct": 46.25,
+      "color": "#4F5D95"
+    },
+    {
+      "name": "Python",
+      "pct": 20.21,
+      "color": "#3572A5"
+    },
+    {
+      "name": "Blade",
+      "pct": 14.88,
+      "color": "#f7523f"
+    },
+    {
+      "name": "JavaScript",
+      "pct": 7.22,
+      "color": "#f1e05a"
+    },
+    {
+      "name": "Vue",
+      "pct": 5.73,
+      "color": "#41b883"
+    },
+    {
+      "name": "Shell",
+      "pct": 4.81,
+      "color": "#89e051"
+    }
+  ]
+}
