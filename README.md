@@ -17,8 +17,10 @@ Full-Stack Developer · Building + Learning + Shipping
 -->
 <img src="https://streak-stats.demolab.com?user=msofyanmurtadlo&theme=dark&hide_border=true&background=0A101F&ring=22D3EE&fire=10B981&currStreakLabel=22D3EE" width="100%" />
 
-<img src="assets/stats-card.svg" width="49%" />
-<img src="assets/top-langs.svg" width="49%" />
+<table><tr>
+<td width="50%"><img src="assets/stats-card.svg" width="100%" /></td>
+<td width="50%"><img src="assets/top-langs.svg" width="100%" /></td>
+</tr></table>
 
 <!-- PHASE 3 — Contribution snake -->
 <picture>
